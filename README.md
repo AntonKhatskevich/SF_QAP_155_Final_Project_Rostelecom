@@ -31,20 +31,20 @@
 
 ***
 #### В корневом каталоге проекта содержаться:
-* [Page](https://github.com/DaniilLan/Rostelecom/tree/main/Page) - локаторы и основные функцыи для тестов;
-* [tests](https://github.com/DaniilLan/Rostelecom/tree/main/test) - тесты на каждую страницу.
+* [Page] - локаторы и основные функцыи для тестов;
+* [tests] - тесты на каждую страницу.
 ***
 #### Директория Page содержит:
-* [base_page.py](https://github.com/DaniilLan/Rostelecom/blob/main/Page/base_page.py) - базовый класс, который содержит объект страницы и функции для выполнения тестов;
-* [config.py](https://github.com/DaniilLan/Rostelecom/blob/main/Page/config.py) - данные для работы тестов;
-* [locators.py](https://github.com/DaniilLan/Rostelecom/blob/main/Page/locators.py) - описание локаторов страниц.
+* [base_page.py] - базовый класс, который содержит объект страницы и функции для выполнения тестов;
+* [config.py] - данные для работы тестов;
+* [locators.py] - описание локаторов страниц.
 ***
 #### Директория tests содержит:
-* [conftest.py](https://github.com/DaniilLan/Rostelecom/blob/main/test/conftest.py) -  условия для выполнения тестов;
-* [test_authorization_code.py](https://github.com/DaniilLan/Rostelecom/blob/main/test/test_authorization_code.py) - тесты для страницы авторизации по временному коду;
-* [test_authorization_pass.py](https://github.com/DaniilLan/Rostelecom/blob/main/test/test_authorization_pass.py) - тесты для страницы авторизации по паролю;
-* [test_recovery.py](https://github.com/DaniilLan/Rostelecom/blob/main/test/test_recovery.py) - тесты для страницы восстановления пароля;
-* [test_registration.py](https://github.com/DaniilLan/Rostelecom/blob/main/test/test_registration.py) - тесты для страницы регистрации.
+* [conftest.py] -  условия для выполнения тестов;
+* [test_authorization_code.py] - тесты для страницы авторизации по временному коду;
+* [test_authorization_pass.py] - тесты для страницы авторизации по паролю;
+* [test_recovery.py] - тесты для страницы восстановления пароля;
+* [test_registration.py] - тесты для страницы регистрации.
 ***
 
 

@@ -58,15 +58,14 @@
 
 ### Инструменты, которые применялись для тестирования.
 
-* Для тестирования сайта был использован 
-инсрумент [Selenium](https://www.selenium.dev/);
+* Для тестирования сайта был использован инсрумент Selenium;
 * Для создания и проектирования тестов была использована IDE PyCharm;
 * Для определения локаторов использовался DevTools.
 
 ### Запуск тестов:
 * Установить все библиотеки и зависимости из requirements.txt;
-* В файле [config.py]([Page/config.py](https://github.com/AntonKhatskevich/SF_QAP_155_Final_Project_Rostelecom/blob/master/Page/config.py)) заполнить все переменные соответствующими данными
-* Загрузите [Selenium WebDriver](https://chromedriver.chromium.org/downloads) (выберите версию, совместимую с вашим браузером) и прописать путь к драйверу в переменную PATH_DRIVER в файле config.py;
+* В файле config.py заполнить все переменные соответствующими данными
+* Загрузите Selenium WebDriver (выберите версию, совместимую с вашим браузером) и прописать путь к драйверу в переменную PATH_DRIVER в файле config.py;
 * Запустить тест: `python -m pytest -v --driver Chrome --driver-path <путь файла>`.
 * При ошибке импортирования файлов из папки Page пометить её как Sources Root
 

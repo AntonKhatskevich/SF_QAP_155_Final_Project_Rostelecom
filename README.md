@@ -31,13 +31,8 @@
 
 ***
 #### В корневом каталоге проекта содержаться:
-* [Driver](https://github.com/DaniilLan/Rostelecom/tree/main/Driver) - веб-драйвер и его лицензия;
 * [Page](https://github.com/DaniilLan/Rostelecom/tree/main/Page) - локаторы и основные функцыи для тестов;
 * [tests](https://github.com/DaniilLan/Rostelecom/tree/main/test) - тесты на каждую страницу.
-***
-#### Директория Driver содержит:
-* [LICENSE.chromedriver](https://github.com/DaniilLan/Rostelecom/blob/main/Driver/LICENSE.chromedriver) - лицензия;
-* [chromedriver.exe](https://github.com/DaniilLan/Rostelecom/blob/main/Driver/chromedriver.exe) - драйвер для управления браузером Chrome.
 ***
 #### Директория Page содержит:
 * [base_page.py](https://github.com/DaniilLan/Rostelecom/blob/main/Page/base_page.py) - базовый класс, который содержит объект страницы и функции для выполнения тестов;

@@ -31,20 +31,20 @@
 
 ***
 #### В корневом каталоге проекта содержаться:
-* [Page] - локаторы и основные функцыи для тестов;
-* [tests] - тесты на каждую страницу.
+* Page - локаторы и основные функцыи для тестов;
+* tests - тесты на каждую страницу.
 ***
 #### Директория Page содержит:
-* [base_page.py] - базовый класс, который содержит объект страницы и функции для выполнения тестов;
-* [config.py] - данные для работы тестов;
-* [locators.py] - описание локаторов страниц.
+* base_page.py - базовый класс, который содержит объект страницы и функции для выполнения тестов;
+* config.py - данные для работы тестов;
+* locators.py - описание локаторов страниц.
 ***
 #### Директория tests содержит:
-* [conftest.py] -  условия для выполнения тестов;
-* [test_authorization_code.py] - тесты для страницы авторизации по временному коду;
-* [test_authorization_pass.py] - тесты для страницы авторизации по паролю;
-* [test_recovery.py] - тесты для страницы восстановления пароля;
-* [test_registration.py] - тесты для страницы регистрации.
+* conftest.py -  условия для выполнения тестов;
+* test_authorization_code.py - тесты для страницы авторизации по временному коду;
+* test_authorization_pass.py - тесты для страницы авторизации по паролю;
+* test_recovery.py - тесты для страницы восстановления пароля;
+* test_registration.py - тесты для страницы регистрации.
 ***
 
 
@@ -65,10 +65,10 @@
 
 ### Запуск тестов:
 * Установить все библиотеки и зависимости из requirements.txt;
-* В файле [config.py](https://github.com/DaniilLan/Rostelecom/blob/main/Page/config.py) заполнить все переменные соответствующими данными
+* В файле [config.py]([Page/config.py](https://github.com/AntonKhatskevich/SF_QAP_155_Final_Project_Rostelecom/blob/master/Page/config.py)) заполнить все переменные соответствующими данными
 * Загрузите [Selenium WebDriver](https://chromedriver.chromium.org/downloads) (выберите версию, совместимую с вашим браузером) и прописать путь к драйверу в переменную PATH_DRIVER в файле config.py;
 * Запустить тест: `python -m pytest -v --driver Chrome --driver-path <путь файла>`.
-* При ошибке импортирования файлов из папки [Page](https://github.com/DaniilLan/Rostelecom/tree/main/Page) пометить её как Sources Root
+* При ошибке импортирования файлов из папки Page пометить её как Sources Root
 
 
 
